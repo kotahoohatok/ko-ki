@@ -1,1 +1,2 @@
-var taro66='太郎が来た';function sayhello
+function taro66(){alert('太郎が来た');}
+
