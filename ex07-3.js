@@ -6,7 +6,7 @@ function bmi5(){ var x,y
 
 function keisan(){ //keisan　という関数を実行する
   var a, b,BMI;
-  a = document.getElementById("shincho").value;
-  b	= document.getElementById("taijuu").value; 
+  a = document.getElementById("shi").value;
+  b	= document.getElementById("tai").value; 
   BMI = b/( (a/100)*(a/100) ); //BMIの計算結果をcに代入
 　alert('あなたのボディマス指数（BMI）は' + BMI + 'です' );}
