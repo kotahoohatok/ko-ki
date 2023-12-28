@@ -4,10 +4,10 @@ function keisan1() {
     y = Number(document.getElementById('sin1').value);
     z = Number(x / (y * y));
     if (z <= 18.5) {
-        alert(z + 'は低体重');
+        alert('あなたのBMI,' + 'z' + 'は低体重です。');
     } else if (z < 25) {
-        alert(z + 'は普通');
+        alert('あなたのBMI' + 'z' + 'は普通です。');
     } else {
-        alert(z + 'は肥満');
+        alert('あなたのBMI' + 'z' + 'は肥満です。');
     }
 }
