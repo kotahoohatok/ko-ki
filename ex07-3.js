@@ -1,4 +1,4 @@
-function keisan(){ //keisan　という関数を実行する
+function keisan(){ 
   var a, b,BMI;
   a = document.getElementById("sin").value;
   b	= document.getElementById("tai").value; 
