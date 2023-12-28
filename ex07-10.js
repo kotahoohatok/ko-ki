@@ -1,6 +1,6 @@
-function BMI() {
-    var x = Number(document.getElementById('weight').value);
-    var y = Number(document.getElementById('feet').value);
+function keisan1() {
+    var x = Number(document.getElementById('tai1').value);
+    var y = Number(document.getElementById('sin1').value);
     var z = Number(x / (y * y));
     if (z <= 18.5) {
         alert(z + 'は低体重');
