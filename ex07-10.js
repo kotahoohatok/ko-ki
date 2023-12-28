@@ -1,7 +1,8 @@
 function keisan1() {
-    var x = Number(document.getElementById('tai1').value);
-    var y = Number(document.getElementById('sin1').value);
-    var z = Number(x / (y * y));
+    var x,y,z
+    x = Number(document.getElementById('tai1').value);
+    y = Number(document.getElementById('sin1').value);
+    z = Number(x / (y * y));
     if (z <= 18.5) {
         alert(z + 'は低体重');
     } else if (z < 25) {
